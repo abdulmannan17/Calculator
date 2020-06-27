@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+      <div class="cal">
+        <div>
+            <h1 style="color: white;">CALCULATOR</h1>
+          <input type="text" id="result" maxlength="30">
+        </div>
+        <div>
+            <button onclick="clearEnt()" id="clearBtn" class="halfBtn">C</button>
+            <button onclick="del()" class="Btn">Del</button>
+            <button onclick="ent('+')" class="Btn">+</button>
+        </div>
+        <div>
+            <button onclick="ent('1')" class="Btn">1</button>
+            <button onclick="ent('2')" class="Btn">2</button>
+            <button onclick="ent('3')" class="Btn">3</button>
+            <button onclick="ent('-')" class="Btn">-</button>
+        </div>
+        <div>
+            <button onclick="ent('4')" class="Btn">4</button>
+            <button onclick="ent('5')" class="Btn">5</button>
+            <button onclick="ent('6')" class="Btn">6</button>
+            <button onclick="ent('/')" class="Btn">/</button>
+        </div>
+        <div>
+            <button onclick="ent('7')" class="Btn">7</button>
+            <button onclick="ent('8')" class="Btn">8</button>
+            <button onclick="ent('9')" class="Btn">9</button>
+            <button onclick="ent('*')" class="Btn">x</button>
+        </div>
+        <div>
+            <button onclick="ent('0')" class="Btn">0</button>
+            <button onclick="ent('.')" class="Btn">.</button>
+            <button onclick="calcu()" class="halfBtn1">=</button>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
